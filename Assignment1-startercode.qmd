@@ -1,0 +1,109 @@
+---
+title: "ADD IN MEANINGFUL TITLE HERE"
+author: "ADD YOUR NAME HERE - STUDENT NUMBER"
+subtitle: "STA304 - Winter 2025 - Assignment 1"
+date: "Insert Date Here"
+format: pdf
+editor: visual
+---
+
+```{r, include = FALSE}
+
+# Here you can load in and clean the data (you may need to do the cleaning in a separate R script - this is up to you). 
+library(tidyverse)
+
+phone_data <- read_csv("ces_phone.csv")
+web_data <- read_csv("ces_web.csv")
+
+# You may need additional chunks, in case you want to include some of the cleaning output.
+
+```
+
+# 1 Introduction
+
+In this section you will briefly describe your report. Explain the importance of the subsequent analysis and prepare the reader for what they will read in the subsequent sections. Explain the goal/topic of the survey/study and the TWO variables you selected of interest here. It might be helpful to explain why you chose your particular demographic variable and your particular outcome variable to investigate. Be sure to give rationale as to why investigating these variables is important to the study/inference. If you wish to **bold** or *italicize* your variable names, please do.
+
+If you do any general data cleaning or data processing to the entire data you should describe it (in a reproducible manner) here.
+
+# 2 Demographic Variables
+
+State which demographic variable was chosen, and give a brief explanation of why you chose it. Create a visualization the same visualization of the distribution of the demographic variable across the two surveys (phone vs. web)
+
+```{r, include = FALSE}
+
+# Here you can clean the demographic variable data. 
+
+# You may need additional chunks, in case you want to include some of the cleaning output.
+
+```
+
+If you do any general data cleaning or data processing to demographic variable that you selected should describe it (in a reproducible manner) here.
+
+```{r, echo = FALSE, fig.dim = c(3, 3), layout="[1,1]"}
+
+# Use this to create your plots/visualization. 
+
+hist(phone_data$q3) 
+hist(web_data$cps19_gender)
+
+
+```
+
+Include a clear description of each of the plot(s)/visualization(s). Be sure to highlight any key differences and/or similarities between the two plots and how this relays to the populations at hand.
+
+# 3 Outcome of Interest
+
+State which outcome variable was chosen, and give a brief explanation of why you chose it. If you do any general data cleaning or data processing to outcome variable that you selected should describe it (in a reproducible manner) here. Make sure that your outcome variable is clearly defined.
+
+```{r, include = FALSE}
+
+# Here you can clean the outcome variable data. 
+
+# You may need additional chunks, in case you want to include some of the cleaning output.
+
+```
+
+You will analyze this outcome in both datasets. For each survey (phone and web), calculate the proportion of respondents indicating a particular response to the chosen outcome and compute a 95% confidence interval for that proportion. The formula used for the confidence interval should also be presented and referenced \[2\]:
+
+$$\bar{X} \pm \chi_{\alpha/2} \sqrt{\frac{1+1}{n}}$$
+
+In Table 1 I present both confidence intervals of..... Compare the confidence intervals of the same outcome of the two surveys. Be sure to highlight any key differences and/or similarities between the two CIs and how this relays to the populations at hand (i.e., about the Canadian electorate's behavior or opinions).
+
+|              | 95% Confidence Interval of "Outcome Variable" |
+|--------------|-----------------------------------------------|
+| Phone Survey | (lower bound, upper bound)                    |
+| Web Survey   | (lower bound, upper bound)                    |
+
+: The 95% confidence intervals of outcome variable of interest calculated for both the Canadian Election Study 2019 phone survey data and the Canadian Election Study 2019 web survey data.
+
+# 4 Comparative Analysis
+
+Here you will write a paragraph with a general reflection. If you would like to you can use sub-headers for each category, but you might also opt to not do this, if you are trying to be mindful of space.
+
+## Demographic Differences
+
+Comment on the key differences (or similarities) between the two surveys in terms of the demographic variable you chose. Are certain groups over- or underrepresented in either the phone survey or the web survey? How might this impact the findings of the survey?
+
+## Biases/Errors:
+
+Reflect on potential biases/errors in both survey methodologies. How do these biases affect the population sampled and the generalizability of the results? Be sure to name each bias that is present and provide rationale as to why it is present in the data.
+
+## Implications for Analysis
+
+Comment on how might the different demographics captured by each survey method affect the analysis of the outcome of interest. Consider whether certain demographic groups are more likely to hold particular views, and how their representation or lack thereof in the samples may influence your conclusions about the Canadian electorate.
+
+# 5 Generative AI Statement
+
+Here is where you can explain your usage of Generative AI tool(s). Be sure to reference it. For instance, including something like:
+
+I used the following generative artificial intelligence (AI) tool: Bing AI Version 2.0 for Chrome \[4\]. I used the tool only in the Introduction section of this assignment and I gave it the following prompt of `What should I eat for breakfast?` and it gave me a list of 10 breakfast items which I then asked it to: `Please only list breakfast items that do not include eggs`. I then chose my 3 favourite items from the produced list and included those in the Introduction section.
+
+Alternatively, if you did not use Generative AI, please include a brief statement outlining your workflow for completing this assignment. This statement should include timelines and a general description of any resources you used (e.g., websites, textbooks, writing centers, etc.).
+
+# 6 Bibliography
+
+1.  Grolemund, G. (2014, July 16) *Introduction to R Markdown*. RStudio. <https://rmarkdown.rstudio.com/articles_intro.html>. (Last Accessed: April 4, 1991)
+
+2.  Dekking, F. M., et al. (2005) *A Modern Introduction to Probability and Statistics: Understanding why and how.* Springer Science & Business Media.
+
+3.  Allaire, J.J., et. el. *References: Introduction to R Markdown*. RStudio. <https://rmarkdown.rstudio.com/docs/>. (Last Accessed: April 4, 1991)
