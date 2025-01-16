@@ -1,15 +1,10 @@
 ---
-title: "STA304 - Winter 2025"
+title: "Assignment 1 Instructions"
 author: "Samantha-Jo Caetano"
-subtitle: Assignment 1 Instructions
-output:
-  pdf_document: default
+subtitle: "STA304 - Winter 2025"
+format: pdf
+editor: visual
 ---
-
-```{r, include=FALSE}
-knitr::opts_chunk$set(warning = FALSE, message = FALSE)
-library(openintro)
-```
 
 # Instructions
 
@@ -19,7 +14,7 @@ This is an individual assignment. While you are expected to work on this indepen
 
 Please do not share your code or your written text with your peers. It is expected that you write all your code and written work (unless they are taken from the materials provided in this course or are from a credible source which you have cited).
 
-Please note, threre is flexibility in this assignment, so the context of most of the work completed here should not match your peers. You are allowed to use Generative Artificial Intelligence to support your completion of the work, but it is recommended that you perform your own proofreading and editing following the usage of Generative AI. Please read through the "Generative AI" policy on the course syllabus and in the instructions of this assignment to ensure that your usage is inline with the requirements of this assessment.
+Please note, there is flexibility in this assignment, so the context of most of the work completed here should not match your peers. You are allowed to use Generative Artificial Intelligence to support your completion of the work, but it is recommended that you perform your own proofreading and editing following the usage of Generative AI. Please read through the "Generative AI" policy on the course syllabus and in the instructions of this assignment to ensure that your usage is inline with the requirements of this assessment.
 
 There is a starter Rmd file (called Assignment1-starter_code.Rmd) available for you to use to start your code. We suggest you read the entire assignment before starting.
 
@@ -62,8 +57,8 @@ Your task is to analyze the two datasets and reflect on the potential biases in 
 You will produce a report (pdf) that is completely digestible to a university level student (who understands what a confidence interval generally is, but may not be familiar with mathematical theory or R code/output). The restrictions are as follows:
 
 - Maximum page length is 5 pages (for the pdf)
-- Standard margin sizes (i.e., not narrow margins)
-- Standard font sizes (i.e., not extremely small) 
+- Standard margin sizes (i.e., 2.5cm)
+- Standard font sizes (i.e., 12 pt font) 
 - Any plots, tables, and output are neatly presented and organized.
 - No visible code in the pdf. 
 
@@ -73,9 +68,13 @@ Note: Anything beyond 5 pages will not be read by the grader. I.e., we will read
 
 ### 1 Introduction (1-3 paragraphs)
 
-In this section you will briefly describe your report. Explain the importance of the subsequent analysis and prepare the reader for what they will read in the subsequent sections. If you do any data cleaning or data processing you should describe it (in a reproducible manner) here. It might be helpful to explain the variables of interest (i.e., the ones you will present in the subsequent sections) here and give rationale as to why investigating these variables is important to the study/inference.
+In this section you will briefly describe your report. Explain the importance of the subsequent analysis and prepare the reader for what they will read in the subsequent sections.
 
-### 2 Choose a Demographic Variable (1-3 paragraphs)
+### 2 Data (1-3 paragraphs)
+
+Briefly introduce the data and key variables of interest. If you do any general data cleaning or data processing you should describe it (in a reproducible manner) here. It might be helpful to explain the variables of interest (i.e., the ones you will present in the subsequent sections) here and give rationale as to why investigating these variables is important to the study/inference. If you do any data cleaning or data processing to the demographic variable or outcome variable that you select (in sections 3 and 4) you should describe it (in a reproducible manner), so that the variables are clearly defined.
+
+### 3 Choose a Demographic Variable (1-3 paragraphs)
 
 You will choose ONE of the following demographic variables to showcase:
 
@@ -84,12 +83,10 @@ You will choose ONE of the following demographic variables to showcase:
 - Province
 - Education
 
-If you do any general data cleaning or data processing to demographic variable that you selected should describe it (in a reproducible manner) in this section. Make sure that your demoographic variable is clearly defined.
-
 Your first task will be to compare the distribution of this demographic variable across the two surveys (phone vs. web). To do this, you will create side-by-side visualizations (e.g., two bar plots, two boxplots, or two histograms, etc.) showing the distribution of your chosen demographic variable for both the phone and web survey datasets. Discuss how these distributions compare and what they imply about the populations reached by each survey method. You should describe the target, frame and sample populations of each data set.
 
 
-### 3 Choose an Outcome of Interest (1-3 paragraphs)
+### 4 Choose an Outcome of Interest (1-3 paragraphs)
 
 Next, choose one outcome of interest from the following list:
 
@@ -97,13 +94,11 @@ Next, choose one outcome of interest from the following list:
 - Likelihood of voting in the next Canadian federal election
 - Voting intentions (i.e., who they would vote for in the next election)
 
-If you do any general data cleaning or data processing to outcome variable that you selected should describe it (in a reproducible manner) in this section. Make sure that your outcome variable is clearly defined.
-
 You will analyze this outcome in both datasets. For each survey (phone and web), calculate the proportion of respondents indicating a particular response to the chosen outcome and compute a 95% confidence interval for that proportion. Present both confidence intervals in a neatly organized, and labelled/captioned table. Compare the results between the two surveys to explore whether different methodologies result in different findings about the Canadian electorate's behavior or opinions. Be sure to also write out the formula for the confidence interval which was used (and reference the textbook or course which it is from).
 
 
 
-### 4 Comparative Analysis (3-5 paragraphs)
+### 5 Comparative Analysis (3-5 paragraphs)
 
 Write a reflection based on the following prompts:
 
@@ -111,7 +106,7 @@ Write a reflection based on the following prompts:
 - Biases/Errors: Reflect on potential biases/errors in both survey methodologies. How do these biases affect the population sampled and the generalizability of the results?
 - Implications for Analysis: How might the different demographics captured by each survey method affect the analysis of the outcome of interest? Consider whether certain demographic groups are more likely to hold particular views, and how their representation or lack thereof in the samples may influence your conclusions about the Canadian electorate.
 
-### 5 Generative AI or Workflow Statement (1-2 paragraphs)
+### 6 Generative AI or Workflow Statement (1-2 paragraphs)
 
 If you have used generative AI tools (e.g., ChatGPT, other writing assistants) to help write your report, please include a brief reflection (one to two paragraphs) on how you used these tools. This should include:
 
@@ -122,6 +117,6 @@ Please note: The use of AI tools should supplement, not replace, your own critic
 
 If you did not use generative AI tools on this assessment, please include a brief statement outlining your workflow for completing this assignment. This statement should include timelines and a general description of any resources you used (e.g., websites, textbooks, writing centers, etc.). 
 
-### 6 Bibliography (1-2 paragraphs)
+### 7 Bibliography
 
 Include a bibliography with at least three academic sources or relevant references that help contextualize your analysis (e.g., references on survey methodology, biases in data collection, etc.). These sources should be cited in the lines of your report.
