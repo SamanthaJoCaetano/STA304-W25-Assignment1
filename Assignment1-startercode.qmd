@@ -20,7 +20,7 @@ web_data <- read_csv("ces_web.csv")
 
 # 1 Introduction
 
-In this section you will briefly describe your report. Explain the importance of the subsequent analysis and prepare the reader for what they will read in the subsequent sections. Explain the goal/topic of the survey/study and the TWO variables you selected of interest here. It might be helpful to explain why you chose your particular demographic variable and your particular outcome variable to investigate. Be sure to give rationale as to why investigating these variables is important to the study/inference. If you wish to **bold** or *italicize* your variable names, please do.
+In this section you will briefly describe your report. Explain the importance of the subsequent analysis and prepare the reader for what they will read in the subsequent sections. Explain the goal/topic of the survey/study and the TWO variables you selected of interest here. It might be helpful to explain why you chose your particular demographic variable and your particular outcome variable to investigate. Be sure to give rationale as to why investigating these variables is important to the study/inference. If you wish to **bold** or *italicize* your variable names, please do. Define the target, frame and sample population.
 
 # 2 Data
 
@@ -72,7 +72,7 @@ hist(web_data$cps19_gender)
 
 ```
 
-Include a clear description of each of the plot(s)/visualization(s). Be sure to highlight any key differences and/or similarities between the two plots and how this relays to the population(s).
+Include a clear description of each of the plot(s)/visualization(s). Be sure to highlight any key differences and/or similarities between the two plots and how this relays to the population(s). Comment on the effects of measuring the target, frame and sample population.
 
 # 4 Outcome of Interest
 
@@ -88,12 +88,12 @@ $$\bar{X} \pm \chi_{\alpha/2} \sqrt{\frac{1+1}{n}}$$
 
 In Table 1 I present both confidence intervals of... Compare the confidence intervals of the same outcome of the two surveys. Be sure to highlight any key differences and/or similarities between the two CIs and how this relays to the populations at hand (i.e., about the Canadian electorate's behavior or opinions).
 
-|              | 95% Confidence Interval of "Outcome Variable" |
-|--------------|-----------------------------------------------|
-| Phone Survey | (lower bound, upper bound)                    |
-| Web Survey   | (lower bound, upper bound)                    |
+|   | Proportion of Outcome Variable | 95% Confidence Interval of Outcome Variable |
+|----|----|----|
+| Phone Survey | 0.34 | (lower bound, upper bound) |
+| Web Survey | 0.25 | (lower bound, upper bound) |
 
-: The 95% confidence intervals of outcome variable of interest calculated for both the Canadian Election Study 2019 phone and web survey data.
+: The proportions and 95% confidence intervals of outcome variable of interest calculated for both the Canadian Election Study 2019 phone and web survey data.
 
 # 5 Comparative Analysis
 
