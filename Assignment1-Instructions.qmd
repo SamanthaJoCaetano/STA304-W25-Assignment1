@@ -16,15 +16,15 @@ Please do not share your code or your written text with your peers. It is expect
 
 Please note, there is flexibility in this assignment, so the context of most of the work completed here should not match your peers. You are allowed to use Generative Artificial Intelligence to support your completion of the work, but it is recommended that you perform your own proofreading and editing following the usage of Generative AI. Please read through the "Generative AI" policy on the course syllabus and in the instructions of this assignment to ensure that your usage is inline with the requirements of this assessment.
 
-There is a starter Rmd file (called Assignment1-starter_code.Rmd) available for you to use to start your code. We suggest you read the entire assignment before starting.
+There is a starter Rmd file (called Assignment1-startercode.qmd) available for you to use to start your code. We suggest you read the entire assignment before starting.
 
 ## Submission Due: Thursday January 30th at 11:59pm ET
 
-Your complete .Rmd file (or .qmd file) AND the resulting pdf (i.e., the one you 'Knit to PDF' from your .Rmd file or 'Render' from your .qmd file) must be uploaded into a Quercus assignment (link: <https://q.utoronto.ca/courses/374323/assignments/1465255>). We will only be accepting submissions through this Quercus page (i.e., we *not* be accepting email submissions). Please consult the course syllabus for other inquiries. **If you do NOT submit the pdf in your submission you will receive a grade of 0.**
+Your complete .Rmd file (or .qmd file) AND the resulting pdf (i.e., the one you 'Knit to PDF' from your .Rmd file or 'Render' from your .qmd file) must be uploaded into a Quercus assignment (link: <https://q.utoronto.ca/courses/374323/assignments/1465255>). We will only be accepting submissions through this Quercus page (i.e., we *not* be accepting email submissions). Please consult the course syllabus for other inquiries. If you do NOT submit the pdf or do NOT submit the rmd/qmd in your submission you will receive a 20% deduction.
 
 There are three attempts to submit this assignment, to account for the possibility of an error in your first attempt/submission. If you submit prior to the January 30 11:59pm ET deadline, then we will grade the latest submission that came in prior to January 30 11:59pm ET.
 
-If you wish to use the grace period please do NOT submit prior to January 30 11:59pm ET. Note: if you use the grace period we will grade the *latest* submission, so please ensure that you are including BOTH the pdf and Rmd in your upload/submission.
+If you wish to use the grace period please do NOT submit prior to January 30 11:59pm ET. Note: if you use the grace period we will grade the *latest* submission, so please ensure that you are including BOTH the pdf and Rmd/qmd in your upload/submission.
 
 # Assignment grading
 
@@ -34,7 +34,7 @@ In this report you will perform a comparative data analysis and describe your in
 
 We will be directly marking the pdf files, so please ensure that your final submission looks as you want it to look before submitting it.
 
-As mentioned above, this assignment will be marked based on the output in the pdf submission. You must submit both the Rmd (or qmd) and pdf files for this assignment to receive full marks in terms of reproduciblity. **If you do NOT submit both the pdf AND Rmd in your submission you will receive a grade of 0.**
+As mentioned above, this assignment will be marked based on the output in the pdf submission. You must submit both the Rmd (or qmd) and pdf files for this assignment to receive full marks in terms of reproduciblity. **If you do NOT submit both the pdf AND Rmd in your submission you will receive a 20% grade deduction.**
 
 This assignment will be graded based off the rubric available on the Assignment Quercus page (link: <https://q.utoronto.ca/courses/374323/assignments/1465255>) - the rubric will be available at least one week in advance of the due date. TAs will look over each section and select the appropriate grade for that section based off a brief overview (one-time read over) of that section. Your assignment should be well understood to the average university level student after reading it once.
 
